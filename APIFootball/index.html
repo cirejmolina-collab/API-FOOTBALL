@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>API Football Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>API Football Explorer</h1>
+    <button id="themeToggle">🌙</button>
+  </header>
+  <main>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search league or cup...">
+      <button id="searchBtn">Search</button>
+    </div>
+    <select id="leagueSelect" style="display:none; margin:10px 0;"></select>
+    <p id="loading">Loading...</p>
+    <p id="error"></p>
+    <div id="result"></div>
+  </main>
+  <footer>
+    <p>Powered by API-Football</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
